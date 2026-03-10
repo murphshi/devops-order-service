@@ -1,5 +1,5 @@
 # devops-order-service
-
+Release version: v1.0.0
 ## Overview
 This repository contains the Order Service for the DevOps final project e-commerce platform.
 
