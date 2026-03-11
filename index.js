@@ -18,7 +18,11 @@ const pool = new Pool({
 
 // Health check
 index.get('/health', (req, res) => {
-    res.status(200).json({ status: 'OK', service: 'order-service' });
+    res.status(200).json({
+        status: 'OK',
+        service: 'order-service',
+        version: 'phase6-order-demo'
+    });
 });
 
 // Get all orders
